@@ -11,6 +11,7 @@ const s = new Sidebar({
   ]
 });
 
+console.log(s.render());
 /*
   TODO: Use the render() method of Sidebar to show HTML response on console. Results should be wrapped in <ul></ul>
 
@@ -21,4 +22,3 @@ const s = new Sidebar({
   blablbala
 
 */
-console.log();
