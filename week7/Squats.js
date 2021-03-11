@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-function Squat () {
+function Squats () {
   const [squats, setSquats] = useState(0);
 
   return (
