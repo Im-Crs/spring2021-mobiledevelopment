@@ -1,4 +1,43 @@
 body {
+  background-color: #344046;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#AppTitle {
+  font-size: 42px;
+  padding: 8px;
+  letter-spacing: 3px;
+}
+
+.ExcersiceTitle {
+  margin-top: 82px;
+  font-weight: lighter;
+}
+  .ExcersiceSubtitle {
+    font-weight: lighter;
+    font-size: 15px;
+  }
+
+button {
+  padding: 8px;
+  background-color: #1976D2;
+  margin: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: 1px solid white;
+  min-width: 40px;
+  transition: .15s;
+}
+  button:hover {
+    transition: .24s;
+    background-color: #104D93;
+    border: 1px solid #BDBDBD;
+  }
+/* ORIGINAL CSS FROM NPM CREATED APP
+body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -11,3 +50,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*/
